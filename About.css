@@ -1,0 +1,60 @@
+@keyframes Slide{
+    From{
+        transform: translateX(500px);
+    }
+    To{
+    transform: translateX(0px);
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+   background-color: black;
+   height: 100px;
+}
+.header p{
+    animation: Slide 2s 1 backwards;
+}
+.middle{
+    background-color: aliceblue;
+    height: 400px;
+    padding: 30px;
+    animation: Slide 2s 1 backwards;
+}
+.footer{
+    background-color: chocolate;
+    height: 100px;
+}
+#about{
+    text-align: center;
+    font-size: 60px;
+    color: aliceblue;
+    padding: 20px;
+
+}
+.flex{
+    display: flex;
+    font-size: 30px;
+    gap: 30px;
+}
+#block{
+    display: block;
+   
+}
+#color{
+    text-align: center;
+    color: gold;
+}
+#do{
+    font-size: 20px;
+}
+#cl{
+    color: crimson;
+}
+#Link{
+    text-align: right;
+    
+  
+}

@@ -1,0 +1,52 @@
+@keyframes Slide{
+    From{
+        transform: translateX(500px);
+    }
+    To{
+    transform: translateX(0px);
+    }
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    background-color: red;
+    color: aliceblue;
+    height: 100px;
+    padding: 10px;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+}
+.header p{
+    animation: Slide 2s 1 backwards;
+}
+#center{
+    font-family:"Poppins", serif;
+    font-size: 30px;
+}
+#Link{
+    color: aliceblue;
+    text-align: right;
+    font-size: 15px;
+    border: 1px salmon;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+}
+.middle{
+    background-color: rgb(245, 244, 242);
+    height: 450px;
+    display: flex;
+    margin: 20px;
+}
+#Block{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    
+}
+#nad{
+    font-size: 90px;
+}

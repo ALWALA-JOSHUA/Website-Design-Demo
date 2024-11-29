@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.card{
+    background-color: aliceblue;
+}
+.card2{
+    background-color: aliceblue;
+}
+.card3{
+    background-color: aliceblue;
+}
+.services{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+.h2{
+    text-align: center;
+}
+#top{
+    text-align: center;
+    font-size: 150px;
+    color: brown;
+}
+#Link{
+    margin: 30px;
+    text-align: right;
+}
+
+.footer{
+    background-color: darkorchid;
+    height: 150px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bolder;
+}
